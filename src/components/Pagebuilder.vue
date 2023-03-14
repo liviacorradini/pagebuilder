@@ -52,8 +52,8 @@
 import { ref, onMounted } from "vue";
 import grapesjs from "grapesjs";
 import "grapesjs/dist/css/grapes.min.css";
-import "../assets/css/custom.css";
-import "../assets/js/custom.js";
+import "../assets/css/page-builder.css";
+import "../assets/js/page-builder.js";
 import pt from "grapesjs/src/i18n/locale/pt";
 import parserPostCSS from "grapesjs-parser-postcss";
 import customCode from "grapesjs-custom-code";
