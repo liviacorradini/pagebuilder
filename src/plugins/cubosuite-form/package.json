@@ -1,0 +1,30 @@
+{
+  "name": "cubo-form",
+  "version": "1.0.41",
+  "description": "Cubo Form",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weellingtonc/cubo-form.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'",
+    "serve-vite": "vite",
+    "build-vite": "vite build",
+    "preview-vite": "vite preview"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^3.0.1",
+    "vite-plugin-env-compatible": "^1.1.1",
+    "vite-plugin-html": "3.2.0",
+    "vite": "^2.7.2",
+    "@originjs/vite-plugin-commonjs": "^1.0.1"
+  },
+  "license": "MIT"
+}
